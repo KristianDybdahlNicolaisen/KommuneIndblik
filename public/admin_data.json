@@ -1,0 +1,697 @@
+{
+  "titel": "Kommunernes udgifter til administration og ledelse",
+  "kilde": "Danmarks Statistik, REGK11 og FOLK1C",
+  "regnskabsaar": "2023",
+  "befolkningsaar": "2025K1",
+  "genereret": "2026-03-21",
+  "gennemsnit_kr_pr_indbygger": 7963,
+  "antal_kommuner": 98,
+  "kommuner": [
+    {
+      "rang": 1,
+      "kommune": "Læsø",
+      "befolkning": 1719,
+      "beloeb_1000kr": 33753,
+      "kr_pr_indbygger": 19635
+    },
+    {
+      "rang": 2,
+      "kommune": "Samsø",
+      "befolkning": 3656,
+      "beloeb_1000kr": 57122,
+      "kr_pr_indbygger": 15624
+    },
+    {
+      "rang": 3,
+      "kommune": "Ærø",
+      "befolkning": 5881,
+      "beloeb_1000kr": 81274,
+      "kr_pr_indbygger": 13820
+    },
+    {
+      "rang": 4,
+      "kommune": "Fanø",
+      "befolkning": 3270,
+      "beloeb_1000kr": 44116,
+      "kr_pr_indbygger": 13491
+    },
+    {
+      "rang": 5,
+      "kommune": "Albertslund",
+      "befolkning": 28117,
+      "beloeb_1000kr": 305330,
+      "kr_pr_indbygger": 10859
+    },
+    {
+      "rang": 6,
+      "kommune": "Ishøj",
+      "befolkning": 24365,
+      "beloeb_1000kr": 251568,
+      "kr_pr_indbygger": 10325
+    },
+    {
+      "rang": 7,
+      "kommune": "Struer",
+      "befolkning": 20229,
+      "beloeb_1000kr": 205066,
+      "kr_pr_indbygger": 10137
+    },
+    {
+      "rang": 8,
+      "kommune": "Langeland",
+      "befolkning": 11973,
+      "beloeb_1000kr": 117845,
+      "kr_pr_indbygger": 9843
+    },
+    {
+      "rang": 9,
+      "kommune": "Nyborg",
+      "befolkning": 32329,
+      "beloeb_1000kr": 310030,
+      "kr_pr_indbygger": 9590
+    },
+    {
+      "rang": 10,
+      "kommune": "Bornholm",
+      "befolkning": 38966,
+      "beloeb_1000kr": 367035,
+      "kr_pr_indbygger": 9419
+    },
+    {
+      "rang": 11,
+      "kommune": "Ballerup",
+      "befolkning": 52939,
+      "beloeb_1000kr": 485214,
+      "kr_pr_indbygger": 9166
+    },
+    {
+      "rang": 12,
+      "kommune": "Tønder",
+      "befolkning": 36399,
+      "beloeb_1000kr": 333410,
+      "kr_pr_indbygger": 9160
+    },
+    {
+      "rang": 13,
+      "kommune": "København",
+      "befolkning": 667099,
+      "beloeb_1000kr": 5975452,
+      "kr_pr_indbygger": 8957
+    },
+    {
+      "rang": 14,
+      "kommune": "Brøndby",
+      "befolkning": 40401,
+      "beloeb_1000kr": 359832,
+      "kr_pr_indbygger": 8907
+    },
+    {
+      "rang": 15,
+      "kommune": "Lolland",
+      "befolkning": 39122,
+      "beloeb_1000kr": 347896,
+      "kr_pr_indbygger": 8893
+    },
+    {
+      "rang": 16,
+      "kommune": "Herlev",
+      "befolkning": 30784,
+      "beloeb_1000kr": 271104,
+      "kr_pr_indbygger": 8807
+    },
+    {
+      "rang": 17,
+      "kommune": "Gladsaxe",
+      "befolkning": 70958,
+      "beloeb_1000kr": 612256,
+      "kr_pr_indbygger": 8628
+    },
+    {
+      "rang": 18,
+      "kommune": "Dragør",
+      "befolkning": 14450,
+      "beloeb_1000kr": 123783,
+      "kr_pr_indbygger": 8566
+    },
+    {
+      "rang": 19,
+      "kommune": "Halsnæs",
+      "befolkning": 31633,
+      "beloeb_1000kr": 270119,
+      "kr_pr_indbygger": 8539
+    },
+    {
+      "rang": 20,
+      "kommune": "Odsherred",
+      "befolkning": 32225,
+      "beloeb_1000kr": 275030,
+      "kr_pr_indbygger": 8535
+    },
+    {
+      "rang": 21,
+      "kommune": "Hvidovre",
+      "befolkning": 53760,
+      "beloeb_1000kr": 457838,
+      "kr_pr_indbygger": 8516
+    },
+    {
+      "rang": 22,
+      "kommune": "Glostrup",
+      "befolkning": 24869,
+      "beloeb_1000kr": 209043,
+      "kr_pr_indbygger": 8406
+    },
+    {
+      "rang": 23,
+      "kommune": "Stevns",
+      "befolkning": 23612,
+      "beloeb_1000kr": 198108,
+      "kr_pr_indbygger": 8390
+    },
+    {
+      "rang": 24,
+      "kommune": "Haderslev",
+      "befolkning": 55354,
+      "beloeb_1000kr": 462308,
+      "kr_pr_indbygger": 8352
+    },
+    {
+      "rang": 25,
+      "kommune": "Solrød",
+      "befolkning": 24732,
+      "beloeb_1000kr": 203928,
+      "kr_pr_indbygger": 8246
+    },
+    {
+      "rang": 26,
+      "kommune": "Billund",
+      "befolkning": 27168,
+      "beloeb_1000kr": 223618,
+      "kr_pr_indbygger": 8231
+    },
+    {
+      "rang": 27,
+      "kommune": "Morsø",
+      "befolkning": 19520,
+      "beloeb_1000kr": 160525,
+      "kr_pr_indbygger": 8224
+    },
+    {
+      "rang": 28,
+      "kommune": "Sønderborg",
+      "befolkning": 74096,
+      "beloeb_1000kr": 606327,
+      "kr_pr_indbygger": 8183
+    },
+    {
+      "rang": 29,
+      "kommune": "Lemvig",
+      "befolkning": 18800,
+      "beloeb_1000kr": 153350,
+      "kr_pr_indbygger": 8157
+    },
+    {
+      "rang": 30,
+      "kommune": "Mariagerfjord",
+      "befolkning": 41606,
+      "beloeb_1000kr": 337612,
+      "kr_pr_indbygger": 8115
+    },
+    {
+      "rang": 31,
+      "kommune": "Høje-Taastrup",
+      "befolkning": 59059,
+      "beloeb_1000kr": 478201,
+      "kr_pr_indbygger": 8097
+    },
+    {
+      "rang": 32,
+      "kommune": "Hjørring",
+      "befolkning": 63311,
+      "beloeb_1000kr": 511477,
+      "kr_pr_indbygger": 8079
+    },
+    {
+      "rang": 33,
+      "kommune": "Rødovre",
+      "befolkning": 44734,
+      "beloeb_1000kr": 361144,
+      "kr_pr_indbygger": 8073
+    },
+    {
+      "rang": 34,
+      "kommune": "Faaborg-Midtfyn",
+      "befolkning": 52284,
+      "beloeb_1000kr": 421175,
+      "kr_pr_indbygger": 8056
+    },
+    {
+      "rang": 35,
+      "kommune": "Vallensbæk",
+      "befolkning": 18322,
+      "beloeb_1000kr": 147213,
+      "kr_pr_indbygger": 8035
+    },
+    {
+      "rang": 36,
+      "kommune": "Sorø",
+      "befolkning": 30641,
+      "beloeb_1000kr": 246017,
+      "kr_pr_indbygger": 8029
+    },
+    {
+      "rang": 37,
+      "kommune": "Nordfyns",
+      "befolkning": 29342,
+      "beloeb_1000kr": 235182,
+      "kr_pr_indbygger": 8015
+    },
+    {
+      "rang": 38,
+      "kommune": "Odense",
+      "befolkning": 210803,
+      "beloeb_1000kr": 1683962,
+      "kr_pr_indbygger": 7988
+    },
+    {
+      "rang": 39,
+      "kommune": "Kerteminde",
+      "befolkning": 23949,
+      "beloeb_1000kr": 191270,
+      "kr_pr_indbygger": 7987
+    },
+    {
+      "rang": 40,
+      "kommune": "Vesthimmerlands",
+      "befolkning": 35818,
+      "beloeb_1000kr": 284196,
+      "kr_pr_indbygger": 7934
+    },
+    {
+      "rang": 41,
+      "kommune": "Guldborgsund",
+      "befolkning": 59350,
+      "beloeb_1000kr": 469959,
+      "kr_pr_indbygger": 7918
+    },
+    {
+      "rang": 42,
+      "kommune": "Faxe",
+      "befolkning": 37820,
+      "beloeb_1000kr": 299119,
+      "kr_pr_indbygger": 7909
+    },
+    {
+      "rang": 43,
+      "kommune": "Thisted",
+      "befolkning": 42698,
+      "beloeb_1000kr": 336413,
+      "kr_pr_indbygger": 7879
+    },
+    {
+      "rang": 44,
+      "kommune": "Brønderslev",
+      "befolkning": 36706,
+      "beloeb_1000kr": 288050,
+      "kr_pr_indbygger": 7847
+    },
+    {
+      "rang": 45,
+      "kommune": "Norddjurs",
+      "befolkning": 36658,
+      "beloeb_1000kr": 286906,
+      "kr_pr_indbygger": 7827
+    },
+    {
+      "rang": 46,
+      "kommune": "Egedal",
+      "befolkning": 45563,
+      "beloeb_1000kr": 355738,
+      "kr_pr_indbygger": 7808
+    },
+    {
+      "rang": 47,
+      "kommune": "Fredericia",
+      "befolkning": 52616,
+      "beloeb_1000kr": 410707,
+      "kr_pr_indbygger": 7806
+    },
+    {
+      "rang": 48,
+      "kommune": "Aabenraa",
+      "befolkning": 58621,
+      "beloeb_1000kr": 457048,
+      "kr_pr_indbygger": 7797
+    },
+    {
+      "rang": 49,
+      "kommune": "Frederikshavn",
+      "befolkning": 57882,
+      "beloeb_1000kr": 450493,
+      "kr_pr_indbygger": 7783
+    },
+    {
+      "rang": 50,
+      "kommune": "Skive",
+      "befolkning": 44328,
+      "beloeb_1000kr": 343448,
+      "kr_pr_indbygger": 7748
+    },
+    {
+      "rang": 51,
+      "kommune": "Svendborg",
+      "befolkning": 60001,
+      "beloeb_1000kr": 460825,
+      "kr_pr_indbygger": 7680
+    },
+    {
+      "rang": 52,
+      "kommune": "Gribskov",
+      "befolkning": 41797,
+      "beloeb_1000kr": 319898,
+      "kr_pr_indbygger": 7654
+    },
+    {
+      "rang": 53,
+      "kommune": "Assens",
+      "befolkning": 40469,
+      "beloeb_1000kr": 307769,
+      "kr_pr_indbygger": 7605
+    },
+    {
+      "rang": 54,
+      "kommune": "Frederiksberg",
+      "befolkning": 105840,
+      "beloeb_1000kr": 803026,
+      "kr_pr_indbygger": 7587
+    },
+    {
+      "rang": 55,
+      "kommune": "Jammerbugt",
+      "befolkning": 37954,
+      "beloeb_1000kr": 287747,
+      "kr_pr_indbygger": 7581
+    },
+    {
+      "rang": 56,
+      "kommune": "Odder",
+      "befolkning": 24083,
+      "beloeb_1000kr": 181500,
+      "kr_pr_indbygger": 7536
+    },
+    {
+      "rang": 57,
+      "kommune": "Vejen",
+      "befolkning": 42702,
+      "beloeb_1000kr": 320562,
+      "kr_pr_indbygger": 7507
+    },
+    {
+      "rang": 58,
+      "kommune": "Lejre",
+      "befolkning": 29594,
+      "beloeb_1000kr": 222113,
+      "kr_pr_indbygger": 7505
+    },
+    {
+      "rang": 59,
+      "kommune": "Lyngby-Taarbæk",
+      "befolkning": 58713,
+      "beloeb_1000kr": 440168,
+      "kr_pr_indbygger": 7497
+    },
+    {
+      "rang": 60,
+      "kommune": "Esbjerg",
+      "befolkning": 115157,
+      "beloeb_1000kr": 860623,
+      "kr_pr_indbygger": 7473
+    },
+    {
+      "rang": 61,
+      "kommune": "Furesø",
+      "befolkning": 42540,
+      "beloeb_1000kr": 316224,
+      "kr_pr_indbygger": 7434
+    },
+    {
+      "rang": 62,
+      "kommune": "Rudersdal",
+      "befolkning": 57342,
+      "beloeb_1000kr": 425328,
+      "kr_pr_indbygger": 7417
+    },
+    {
+      "rang": 63,
+      "kommune": "Vordingborg",
+      "befolkning": 45057,
+      "beloeb_1000kr": 332053,
+      "kr_pr_indbygger": 7370
+    },
+    {
+      "rang": 64,
+      "kommune": "Helsingør",
+      "befolkning": 63953,
+      "beloeb_1000kr": 470370,
+      "kr_pr_indbygger": 7355
+    },
+    {
+      "rang": 65,
+      "kommune": "Varde",
+      "befolkning": 49410,
+      "beloeb_1000kr": 360237,
+      "kr_pr_indbygger": 7291
+    },
+    {
+      "rang": 66,
+      "kommune": "Aarhus",
+      "befolkning": 373388,
+      "beloeb_1000kr": 2682282,
+      "kr_pr_indbygger": 7184
+    },
+    {
+      "rang": 67,
+      "kommune": "Allerød",
+      "befolkning": 26128,
+      "beloeb_1000kr": 187431,
+      "kr_pr_indbygger": 7174
+    },
+    {
+      "rang": 68,
+      "kommune": "Hillerød",
+      "befolkning": 54855,
+      "beloeb_1000kr": 391625,
+      "kr_pr_indbygger": 7139
+    },
+    {
+      "rang": 69,
+      "kommune": "Gentofte",
+      "befolkning": 75076,
+      "beloeb_1000kr": 535790,
+      "kr_pr_indbygger": 7137
+    },
+    {
+      "rang": 70,
+      "kommune": "Ringsted",
+      "befolkning": 36286,
+      "beloeb_1000kr": 257632,
+      "kr_pr_indbygger": 7100
+    },
+    {
+      "rang": 71,
+      "kommune": "Køge",
+      "befolkning": 63335,
+      "beloeb_1000kr": 449103,
+      "kr_pr_indbygger": 7091
+    },
+    {
+      "rang": 72,
+      "kommune": "Frederikssund",
+      "befolkning": 47052,
+      "beloeb_1000kr": 333549,
+      "kr_pr_indbygger": 7089
+    },
+    {
+      "rang": 73,
+      "kommune": "Kolding",
+      "befolkning": 95897,
+      "beloeb_1000kr": 679758,
+      "kr_pr_indbygger": 7088
+    },
+    {
+      "rang": 74,
+      "kommune": "Fredensborg",
+      "befolkning": 42186,
+      "beloeb_1000kr": 298941,
+      "kr_pr_indbygger": 7086
+    },
+    {
+      "rang": 75,
+      "kommune": "Rebild",
+      "befolkning": 30942,
+      "beloeb_1000kr": 215665,
+      "kr_pr_indbygger": 6970
+    },
+    {
+      "rang": 76,
+      "kommune": "Middelfart",
+      "befolkning": 40318,
+      "beloeb_1000kr": 280797,
+      "kr_pr_indbygger": 6965
+    },
+    {
+      "rang": 77,
+      "kommune": "Hørsholm",
+      "befolkning": 25168,
+      "beloeb_1000kr": 174139,
+      "kr_pr_indbygger": 6919
+    },
+    {
+      "rang": 78,
+      "kommune": "Syddjurs",
+      "befolkning": 44101,
+      "beloeb_1000kr": 300337,
+      "kr_pr_indbygger": 6810
+    },
+    {
+      "rang": 79,
+      "kommune": "Kalundborg",
+      "befolkning": 48103,
+      "beloeb_1000kr": 326843,
+      "kr_pr_indbygger": 6795
+    },
+    {
+      "rang": 80,
+      "kommune": "Næstved",
+      "befolkning": 84895,
+      "beloeb_1000kr": 573413,
+      "kr_pr_indbygger": 6754
+    },
+    {
+      "rang": 81,
+      "kommune": "Tårnby",
+      "befolkning": 44034,
+      "beloeb_1000kr": 294359,
+      "kr_pr_indbygger": 6685
+    },
+    {
+      "rang": 82,
+      "kommune": "Hedensted",
+      "befolkning": 48167,
+      "beloeb_1000kr": 321723,
+      "kr_pr_indbygger": 6679
+    },
+    {
+      "rang": 83,
+      "kommune": "Ringkøbing-Skjern",
+      "befolkning": 55582,
+      "beloeb_1000kr": 368785,
+      "kr_pr_indbygger": 6635
+    },
+    {
+      "rang": 84,
+      "kommune": "Randers",
+      "befolkning": 100356,
+      "beloeb_1000kr": 664447,
+      "kr_pr_indbygger": 6621
+    },
+    {
+      "rang": 85,
+      "kommune": "Horsens",
+      "befolkning": 97921,
+      "beloeb_1000kr": 631726,
+      "kr_pr_indbygger": 6451
+    },
+    {
+      "rang": 86,
+      "kommune": "Aalborg",
+      "befolkning": 224612,
+      "beloeb_1000kr": 1435978,
+      "kr_pr_indbygger": 6393
+    },
+    {
+      "rang": 87,
+      "kommune": "Slagelse",
+      "befolkning": 80481,
+      "beloeb_1000kr": 509149,
+      "kr_pr_indbygger": 6326
+    },
+    {
+      "rang": 88,
+      "kommune": "Holbæk",
+      "befolkning": 74490,
+      "beloeb_1000kr": 469507,
+      "kr_pr_indbygger": 6303
+    },
+    {
+      "rang": 89,
+      "kommune": "Favrskov",
+      "befolkning": 49359,
+      "beloeb_1000kr": 308840,
+      "kr_pr_indbygger": 6257
+    },
+    {
+      "rang": 90,
+      "kommune": "Greve",
+      "befolkning": 53536,
+      "beloeb_1000kr": 332378,
+      "kr_pr_indbygger": 6208
+    },
+    {
+      "rang": 91,
+      "kommune": "Ikast-Brande",
+      "befolkning": 43009,
+      "beloeb_1000kr": 262776,
+      "kr_pr_indbygger": 6110
+    },
+    {
+      "rang": 92,
+      "kommune": "Roskilde",
+      "befolkning": 91623,
+      "beloeb_1000kr": 557464,
+      "kr_pr_indbygger": 6084
+    },
+    {
+      "rang": 93,
+      "kommune": "Skanderborg",
+      "befolkning": 65760,
+      "beloeb_1000kr": 392919,
+      "kr_pr_indbygger": 5975
+    },
+    {
+      "rang": 94,
+      "kommune": "Silkeborg",
+      "befolkning": 101574,
+      "beloeb_1000kr": 604366,
+      "kr_pr_indbygger": 5950
+    },
+    {
+      "rang": 95,
+      "kommune": "Viborg",
+      "befolkning": 97621,
+      "beloeb_1000kr": 564018,
+      "kr_pr_indbygger": 5778
+    },
+    {
+      "rang": 96,
+      "kommune": "Herning",
+      "befolkning": 90006,
+      "beloeb_1000kr": 497710,
+      "kr_pr_indbygger": 5530
+    },
+    {
+      "rang": 97,
+      "kommune": "Vejle",
+      "befolkning": 122433,
+      "beloeb_1000kr": 631219,
+      "kr_pr_indbygger": 5156
+    },
+    {
+      "rang": 98,
+      "kommune": "Holstebro",
+      "befolkning": 59201,
+      "beloeb_1000kr": 304681,
+      "kr_pr_indbygger": 5147
+    }
+  ]
+}
