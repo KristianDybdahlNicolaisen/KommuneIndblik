@@ -1,4 +1,162 @@
 ---
+---
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KommuneIndblik — Databaseret indsigt i Danmarks kommuner</title>
+<link 
+href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,400&family=IBM+Plex+Sans:wght@300;400;500&family=IBM+Plex+Mono:wght@400&display=swap" 
+rel="stylesheet">
+<style>
+  :root {
+    --ink: #1A1A18; --paper: #F5F2EA; --accent: #C8392B;
+    --slate: #3D5166; --warm-gray: #8C8478; --rule: #D4CEBF;
+    --data-blue: #1D4E7A; --highlight: #F0E6C8;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--paper); color: var(--ink); font-family: 'IBM Plex Sans', sans-serif; }
+
+  .masthead {
+    border-bottom: 3px double var(--ink);
+    padding: 1.5rem 3rem;
+    display: flex; align-items: flex-end; justify-content: space-between;
+  }
+  .logo { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 900; letter-spacing: -0.02em; }
+  .logo span { color: var(--accent); }
+  .tagline { font-family: 'IBM Plex Mono', monospace; font-size: 0.6rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--warm-gray); padding-bottom: 0.3rem; 
+}
+
+  .hero { max-width: 900px; margin: 0 auto; padding: 5rem 3rem 3rem; border-bottom: 1px solid var(--rule); }
+  .kicker { font-family: 'IBM Plex Mono', monospace; font-size: 0.6rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); margin-bottom: 1rem; }
+  .hero h1 { font-family: 'Playfair Display', serif; font-size: 3.5rem; font-weight: 900; line-height: 1.1; letter-spacing: -0.03em; margin-bottom: 1.5rem; max-width: 
+750px; }
+  .hero h1 em { font-style: italic; color: var(--slate); }
+  .hero p { font-size: 1rem; font-weight: 300; line-height: 1.8; color: #3a3832; max-width: 620px; margin-bottom: 2rem; }
+
+  .koncept { max-width: 900px; margin: 0 auto; padding: 3rem; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0; border-bottom: 1px solid var(--rule); }
+  .koncept-item { padding: 1.5rem; border-right: 1px solid var(--rule); }
+  .koncept-item:last-child { border-right: none; }
+  .koncept-num { font-family: 'Playfair Display', serif; font-size: 2.5rem; font-weight: 900; color: var(--rule); line-height: 1; margin-bottom: 0.5rem; }
+  .koncept-titel { font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 700; margin-bottom: 0.5rem; }
+  .koncept-tekst { font-size: 0.8rem; font-weight: 300; color: var(--warm-gray); line-height: 1.7; }
+
+  .analyser { max-width: 900px; margin: 0 auto; padding: 3rem; }
+  .analyser h2 { font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 900; margin-bottom: 2rem; }
+
+  .analyse-kort {
+    display: grid; grid-template-columns: 2fr 1fr; gap: 0;
+    border: 1px solid var(--ink); margin-bottom: 1rem;
+    text-decoration: none; color: var(--ink);
+    transition: background 0.15s;
+  }
+  .analyse-kort:hover { background: var(--highlight); }
+  .analyse-kort-body { padding: 1.8rem; border-right: 1px solid var(--rule); }
+  .analyse-kicker { font-family: 'IBM Plex Mono', monospace; font-size: 0.58rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--accent); margin-bottom: 
+0.5rem; }
+  .analyse-titel { font-family: 'Playfair Display', serif; font-size: 1.3rem; font-weight: 700; line-height: 1.2; margin-bottom: 0.8rem; }
+  .analyse-tekst { font-size: 0.82rem; font-weight: 300; color: var(--warm-gray); line-height: 1.7; }
+  .analyse-meta { padding: 1.8rem; display: flex; flex-direction: column; justify-content: space-between; }
+  .analyse-stat { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 900; color: var(--data-blue); }
+  .analyse-stat-label { font-family: 'IBM Plex Mono', monospace; font-size: 0.6rem; color: var(--warm-gray); margin-top: 0.3rem; }
+  .analyse-tag { font-family: 'IBM Plex Mono', monospace; font-size: 0.58rem; background: var(--ink); color: var(--paper); padding: 0.3rem 0.6rem; display: inline-block; }
+
+  .om { max-width: 900px; margin: 0 auto; padding: 0 3rem 3rem; border-top: 1px solid var(--rule); padding-top: 3rem; }
+  .om h2 { font-family: 'Playfair Display', serif; font-size: 1.2rem; font-weight: 700; margin-bottom: 1rem; }
+  .om p { font-size: 0.85rem; font-weight: 300; color: var(--warm-gray); line-height: 1.8; max-width: 620px; margin-bottom: 0.8rem; }
+
+  footer { border-top: 3px double var(--ink); padding: 1.5rem 3rem; display: flex; justify-content: space-between; align-items: center; }
+  .footer-logo { font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 900; }
+  .footer-logo span { color: var(--accent); }
+  .footer-note { font-family: 'IBM Plex Mono', monospace; font-size: 0.6rem; color: var(--warm-gray); }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div>
+    <div class="logo">Kommune<span>Indblik</span></div>
+    <div class="tagline">Databaseret indsigt i Danmarks 98 kommuner</div>
+  </div>
+  <div style="font-family:'IBM Plex Mono',monospace;font-size:0.6rem;color:var(--warm-gray);text-align:right;line-height:1.8;">
+    Data: Danmarks Statistik<br>
+    Opdateret: marts 2026
+  </div>
+</header>
+
+<div class="hero">
+  <p class="kicker">Åbent · Gratis · Databaseret</p>
+  <h1>Hvad sker der egentlig i <em>din kommune?</em></h1>
+  <p>KommuneIndblik giver borgere, politikere og journalister nem adgang til databaseret indsigt om Danmarks 98 kommuner. Vi kombinerer åbne offentlige data med 
+AI-assisteret analyse — og er fuldt gennemsigtige om hvordan tallene er lavet.</p>
+  <p>Vi har overtaget stafétten fra Benchmarkingenheden, der blev lukket i 2025. Vores analyser er gratis, åbne og løbende opdaterede.</p>
+</div>
+
+<div class="koncept">
+  <div class="koncept-item">
+    <div class="koncept-num">01</div>
+    <div class="koncept-titel">Åbne data</div>
+    <div class="koncept-tekst">Alle analyser bygger på offentligt tilgængelige data fra Danmarks Statistik, Jobindsats og andre myndigheder. Ingen betalingsmur.</div>
+  </div>
+  <div class="koncept-item">
+    <div class="koncept-num">02</div>
+    <div class="koncept-titel">Gennemsigtigt</div>
+    <div class="koncept-tekst">Vi viser præcist hvordan tallene er beregnet, hvilke filtre der er brugt, og hvornår data kan fortolkes politisk.</div>
+  </div>
+  <div class="koncept-item">
+    <div class="koncept-num">03</div>
+    <div class="koncept-titel">Borgernært</div>
+    <div class="koncept-tekst">Analyser er skrevet så borgere kan forstå dem — ikke kun embedsmænd. Komplekse tal oversættes til et klart sprog.</div>
+  </div>
+</div>
+
+<div class="analyser">
+  <h2>Analyser</h2>
+
+  <a href="/admin.html" class="analyse-kort">
+    <div class="analyse-kort-body">
+      <div class="analyse-kicker">Administration & ledelse · Regnskab 2023</div>
+      <div class="analyse-titel">Hvad bruger din kommune på administration?</div>
+      <div class="analyse-tekst">En gennemgang af alle 98 kommuners udgifter til administration og ledelse i 2023. Se hvordan din kommune klarer sig sammenlignet med resten 
+af landet — og hvad forskellen skyldes.</div>
+    </div>
+    <div class="analyse-meta">
+      <div>
+        <div class="analyse-stat">98</div>
+        <div class="analyse-stat-label">kommuner analyseret</div>
+      </div>
+      <div>
+        <div class="analyse-stat" style="font-size:1.4rem;">7.963 kr.</div>
+        <div class="analyse-stat-label">landsgennemsnit pr. indbygger</div>
+      </div>
+      <div class="analyse-tag">Læs analyse →</div>
+    </div>
+  </a>
+
+  <div style="border:1px solid var(--rule);padding:1.8rem;opacity:0.5;">
+    <div style="font-family:'IBM Plex Mono',monospace;font-size:0.58rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--warm-gray);margin-bottom:0.5rem;">Kommer 
+snart</div>
+    <div style="font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:700;">Befolkningsudvikling i alle kommuner 2015–2025</div>
+  </div>
+
+</div>
+
+<div class="om">
+  <h2>Om KommuneIndblik</h2>
+  <p>KommuneIndblik er et uafhængigt datajournalistisk projekt der giver indsigt i Danmarks kommuner. Projektet er bygget på åbne data og er fuldt gennemsigtigt om metode 
+og beregninger.</p>
+  <p>Indenrigs- og Sundhedsministeriets Benchmarkingenhed blev lukket i september 2025. KommuneIndblik overtager den systematiske benchmarking og gør den gratis og 
+tilgængelig for alle.</p>
+</div>
+
+<footer>
+  <div class="footer-logo">Kommune<span>Indblik</span></div>
+  <div class="footer-note">Data: Danmarks Statistik · Metode: åben · kommuneindblik.netlify.app</div>
+</footer>
+
+</body>
+</html>---
 
 ---
 
